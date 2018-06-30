@@ -51,20 +51,20 @@ System configurations are all saved in ```utils/config.js``` file, which is part
 
 Title | Key | Descrition
 ----|-------|-------------
-__1. General__ | __general__ | Contains general configurations such as banner and default page size
+__1. General__ | general | Contains general configurations such as banner and default page size
 Default page size | general.def_size | default page size which will be used to partition the data.
 Banner file name | general.banner | into banner filename and location.
-__2. Data | __data__ | Provided data configurations
+__2. Data__ | data | Provided data configurations
 Data Directory | data.dir | Location of data folder
 Customers data | data.customers | customers data filename.
 Addresses data | data.addresses | customers' addresses filename.
-__3. Database__ | __db__ | Database configurations
+__3. Database__ | db | Database configurations
 URL | db.url | Database connection string
 Database Name | db.dbname | name of the database name
 Collection name | db.collect | name of collection used to use to save the results
 Authentication user | db.username | username used to loging to MongoDB (Not implemented yet)
 Authentication password | db.password | password to be used in logging in (Not implemented yet
-__4. Logs__ | __logger__ | Logger settings
+__4. Logs__ | logger | Logger settings
 Logging Directory | logger.dir | Logging output directory
 Filename | logger.filename | Logs output filename.
 Log level | logger.level | Log level used in logging.
