@@ -47,7 +47,7 @@ npm start <page_size>
 
 ### Configuration
 
-System configurations are all saved in ```utils/config.js``` file, which is partitioned as follows:
+System configurations are all saved in ```utils/config.js``` file, which contains the following keys:
 
 Title | Key | Descrition
 ----|-------|-------------
