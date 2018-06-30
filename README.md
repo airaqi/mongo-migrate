@@ -49,28 +49,22 @@ npm start <page_size>
 
 System configurations are all saved in ```utils/config.js``` file, which is partitioned as follows:
 
-1. General  contains the banner info.
-    * Default Size 
-2. Data     contains the data files directory and file names
-3. Database contians all the database configurations
-4. Logger   all logger configurations 
-
-Key | Title | Descrition
+Title | Key | Descrition
 ----|-------|-------------
-__general__ | __General__ | Contains general configurations such as banner and default page size
-general.def_size | Default page size | default page size which will be used to partition the data.
-general.banner | Banner file name | into banner filename and location.
-__data__ | __Data__ | Provided data configurations
-data.dir | Directory | Location of data folder
-data.customers | Customers data | customers data filename.
-data.addresses | Addresses data | customers' addresses filename.
-__db__ | __Database__ | Database configurations
-db.url | URL | Database connection string
-db.dbname | Database name | name of the database name
-db.collect | Collection name | name of collection used to use to save the results
-db.username | Authentication user | username used to loging to MongoDB (Not implemented yet)
-db.password | Authentication password | password to be used in logging in (Not implemented yet
-__logger__ | __Logger__ | Logger settings
-logger.dir | Logging Directory | Logging output directory
-logger.filename | Filename | Logs output filename.
-logger.level | Log Level | Log level used in logging.
+__1. General__ | __general__ | Contains general configurations such as banner and default page size
+Default page size | general.def_size | default page size which will be used to partition the data.
+Banner file name | general.banner | into banner filename and location.
+__2. Data | __data__ | Provided data configurations
+Data Directory | data.dir | Location of data folder
+Customers data | data.customers | customers data filename.
+Addresses data | data.addresses | customers' addresses filename.
+__3. Database__ | __db__ | Database configurations
+URL | db.url | Database connection string
+Database Name | db.dbname | name of the database name
+Collection name | db.collect | name of collection used to use to save the results
+Authentication user | db.username | username used to loging to MongoDB (Not implemented yet)
+Authentication password | db.password | password to be used in logging in (Not implemented yet
+__4. Logs__ | __logger__ | Logger settings
+Logging Directory | logger.dir | Logging output directory
+Filename | logger.filename | Logs output filename.
+Log level | logger.level | Log level used in logging.
