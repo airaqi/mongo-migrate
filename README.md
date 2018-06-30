@@ -56,8 +56,8 @@ System configurations are all saved in ```utils/config.js``` file, which is part
 4. Logger   all logger configurations 
 
 <dl>
-    <DT>1. General (general)<DD>banner and default size.
-        * Default Size (def_size)
+    <DT>1. General (general)<DD>banner and default size.<br/>
+        * Default Size (def_size)<br/>
         * banner file (banner)
     <DT>2. Data (data)<DD>contains the data files directory and file names.
     <DT>3. Database (db) <DD>contains all the database configurations
