@@ -57,6 +57,6 @@ System configurations are all saved in ```utils/config.js``` file, which is part
 
 Key | Title | Descrition
 ----|-------|-------------
-general | General | Contains general configurations such as banner and default page size
+__general__ | __General__ | Contains general configurations such as banner and default page size
 general.def_size | Default page size | default page size which will be used to partition the data.
 general.banner | Banner file name | into banner filename and location.
