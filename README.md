@@ -60,3 +60,17 @@ Key | Title | Descrition
 __general__ | __General__ | Contains general configurations such as banner and default page size
 general.def_size | Default page size | default page size which will be used to partition the data.
 general.banner | Banner file name | into banner filename and location.
+__data__ | __Data__ | Provided data configurations
+data.dir | Directory | Location of data folder
+data.customers | Customers data | customers data filename.
+data.addresses | Addresses data | customers' addresses filename.
+__db__ | __Database__ | Database configurations
+db.url | URL | Database connection string
+db.dbname | Database name | name of the database name
+db.collect | Collection name | name of collection used to use to save the results
+db.username | Authentication user | username used to loging to MongoDB (Not implemented yet)
+db.password | Authentication password | password to be used in logging in (Not implemented yet
+__logger__ | __Logger__ | Logger settings
+logger.dir | Logging Directory | Logging output directory
+logger.filename | Filename | Logs output filename.
+logger.level | Log Level | Log level used in logging.
