@@ -60,6 +60,11 @@ System configurations are all saved in ```utils/config.js``` file, which is part
         * Default Size (def_size)<br/>
         * banner file (banner)
     <DT>2. Data (data)<DD>contains the data files directory and file names.
+        <dl>
+            <dt>Directory (dir)</dt><dd>Data directory</dd>
+            <dt>Customers file (customers)</dt><dd>Customers file</dd>
+        </dl>
+    </dd>
     <DT>3. Database (db) <DD>contains all the database configurations
     <dt>4. Logger (logger) <DD>all logger configurations.
 </dl>
