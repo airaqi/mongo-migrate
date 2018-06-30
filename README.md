@@ -45,12 +45,16 @@ After fulfilling all requirements, and installing the application properly, you 
 npm start <page_size>
 ```
 
-### Execution
 ### Configuration
 
 System configurations are all saved in ```utils/config.js``` file, which is partitioned as follows:
 
 1. General  contains the banner info.
+    * Default Size 
 2. Data     contains the data files directory and file names
 3. Database contians all the database configurations
 4. Logger   all logger configurations 
+
+<dl>
+    <DT>General<DD>banner and default size.
+</dl>
