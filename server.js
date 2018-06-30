@@ -15,13 +15,13 @@ require('./utils/banner.js');
 // read the segment size
 var psize = parseInt(process.argv[2]) || config.general.def_size;
 
-logger.debug(`configurations loaded: ${ JSON.stringify(config, null, 2) }`);
+logger.info(`configurations loaded: ${ JSON.stringify(config, null, 2) }`);
 
 logger.info({message: `page size sent ${psize}`});
 
 // read the files contents
-const customers = require('./data/m3-customer-data.json');
-const addresses = require('./data/m3-customer-address-data.json');
+const customers = require(path.join(__dirname, config.data.dir, config.data.customers));
+const addresses = require(path.join(__dirname, config.data.dir,  config.data.addresses));
 
 let tasks = [];
 
