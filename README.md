@@ -52,7 +52,7 @@ System configurations are all saved in ```utils/config.js``` file, which contain
 Title | Key | Descrition|Default
 ----|-------|-----------|--------
 __1. General__ | general | Contains general configurations such as banner and default page size|
-    Default page size | general.def_size | default page size which will be used to partition the data.|100
+    Default page size | general.def_size | default page size which will be used to partition the data. |100
 Banner file name | general.banner | into banner filename and location.| ./utils/banner.txt
 __2. Data__ | data | Provided data configurations|
 Data Directory | data.dir | Location of data folder | ./data/
